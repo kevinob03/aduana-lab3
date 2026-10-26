@@ -1,0 +1,13 @@
+# Credenciales y archivos locales: no subir a GitHub
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+mysql-passwords.txt
+
+# Archivos temporales de herramientas
+.DS_Store
+Thumbs.db
+node_modules/
